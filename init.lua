@@ -18,4 +18,4 @@ dofile(path .. "/nodes.lua")
 -- Map Generation
 dofile(path .. "/spawn_lairs.lua")
 
-minetest.log("action", "[MOD] Draconis v0.1 Beta loaded")
+minetest.log("action", "[MOD] Draconis v0.11 Beta loaded")
