@@ -70,6 +70,7 @@ minetest.register_abm({
 	chance = 1,
 	action = function(pos, node, active_object_count, active_object_count_wider)
 	minetest.place_schematic(pos, ice_lair, 0, {}, true)
+        minetest.set_node(pos, {name = "air"})
 	end,
 })
 
@@ -81,6 +82,7 @@ minetest.register_abm({
 	chance = 1,
 	action = function(pos, node, active_object_count, active_object_count_wider)
 	minetest.place_schematic(pos, fire_lair, 0, {}, true)
+        minetest.set_node(pos, {name = "air"})
 	end,
 })
 
