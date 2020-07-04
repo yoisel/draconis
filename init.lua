@@ -2,6 +2,9 @@ draconis = {}
 
 local path = minetest.get_modpath("draconis")
 
+-- Common properties and functions
+dofile(path .. "/draconis_common.lua")
+
 -- Mobs
 dofile(path .. "/mobs/fire_dragon.lua")
 dofile(path .. "/mobs/fire_wyvern.lua")

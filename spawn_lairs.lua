@@ -19,7 +19,7 @@ minetest.register_node("draconis:spawn_ice_nest", {
  minetest.register_ore({
      ore_type = "scatter",
      ore = "draconis:spawn_fire_nest",
-     wherein = "default:dirt_with_grass",
+     wherein = draconis.game_core_prefix .. ":dirt_with_grass",
      clust_scarcity = 40*40*40,
      clust_num_ores = 1,
      clust_size = 1,
@@ -30,7 +30,7 @@ minetest.register_node("draconis:spawn_ice_nest", {
  minetest.register_ore({
      ore_type = "scatter",
      ore = "draconis:spawn_fire_nest",
-     wherein = "default:dirt_with_dry_grass",
+     wherein = draconis.game_core_prefix .. ":dirt_with_dry_grass",
      clust_scarcity = 40*40*40,
      clust_num_ores = 1,
      clust_size = 1,
@@ -41,7 +41,7 @@ minetest.register_node("draconis:spawn_ice_nest", {
  minetest.register_ore({
      ore_type = "scatter",
      ore = "draconis:spawn_ice_nest",
-     wherein = "default:dirt_with_snow",
+     wherein = draconis.game_core_prefix .. ":dirt_with_snow",
      clust_scarcity = 40*40*40,
      clust_num_ores = 1,
      clust_size = 1,
@@ -52,7 +52,7 @@ minetest.register_node("draconis:spawn_ice_nest", {
  minetest.register_ore({
      ore_type = "scatter",
      ore = "draconis:spawn_ice_nest",
-     wherein = "default:dirt_with_coniferous_litter",
+     wherein = draconis.game_core_prefix .. ":dirt_with_coniferous_litter",
      clust_scarcity = 40*40*40,
      clust_num_ores = 1,
      clust_size = 1,

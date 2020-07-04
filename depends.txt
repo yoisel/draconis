@@ -1,4 +1,8 @@
-default
-mobs
-farming
+default?
+mobs?
+farming?
 real_suffocation?
+mcl_core?
+mcl_mobs?
+mcl_sounds?
+mcl_farming?

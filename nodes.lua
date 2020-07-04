@@ -20,7 +20,7 @@ minetest.register_node("draconis:fire_wyvern_nest", {
 	is_ground_content = false,
 	paramtype2 = "facedir",
 	groups = {snappy = 2},
-	sounds = default.node_sound_leaves_defaults(),
+	sounds = draconis.sound_core.node_sound_leaves_defaults(),
 	drop = "draconis:fire_wyvern_egg",
 	after_dig_node = function(pos, oldnode, oldmetadata, digger)
 -- Make Wyvern spawn above the nest
@@ -53,7 +53,7 @@ minetest.register_node("draconis:ice_wyvern_nest", {
 	is_ground_content = false,
 	paramtype2 = "facedir",
 	groups = {snappy = 2},
-	sounds = default.node_sound_leaves_defaults(),
+	sounds = draconis.sound_core.node_sound_leaves_defaults(),
 	drop = "draconis:ice_wyvern_egg",
 	after_dig_node = function(pos, oldnode, oldmetadata, digger)
 -- Make Wyvern spawn above the nest
@@ -102,7 +102,7 @@ minetest.register_node("draconis:hot_obsidian", {
 	description = "Super-Heated Obsidian",
 	tiles = {"draconis_hot_obsidian.png"},
 	damage_per_second = 2,
-	sounds = default.node_sound_stone_defaults(),
+	sounds = draconis.sound_core.node_sound_stone_defaults(),
 	groups = {cracky = 1, level = 2, igniter = 1},
 })
 
@@ -113,7 +113,7 @@ minetest.register_node("draconis:cold_ice", {
 	damage_per_second = 2,
 	paramtype = "light",
 	groups = {cracky = 3, cools_lava = 1, slippery = 1},
-	sounds = default.node_sound_glass_defaults(),
+	sounds = draconis.sound_core.node_sound_glass_defaults(),
 })
 
 minetest.register_abm({
